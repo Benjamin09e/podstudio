@@ -15,8 +15,14 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'PodStudio | Studio d’Enregistrement Podcast Pro',
-  description: 'Créez des podcasts de qualité exceptionnelle avec notre équipement professionnel.',
+  title: 'PodStudio | Studio d’Enregistrement Podcast à Paris',
+  description: 'Enregistrez vos podcasts dans un studio pro avec matériel haut de gamme. Mixage, montage et distribution sur Spotify et Apple Podcasts.',
+  keywords: ['studio podcast paris', 'enregistrement audio pro', 'montage podcast', 'vidéo podcast studio'],
+  openGraph: {
+    title: 'PodStudio - Créez votre Podcast Pro',
+    description: 'Équipement premium et post-production pour podcasters exigeants.',
+    images: ['/og-image.jpg'], // Ajoute une image de ton studio dans le dossier public
+  },
 };
 
 export default function RootLayout({ children }) {
